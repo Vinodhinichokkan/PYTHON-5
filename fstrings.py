@@ -34,3 +34,28 @@ player ={'person': 'Abi', 'coins': 3}
 message ="\n {person} has {coins} coins left." .format(**player)
 print(message)    #Abi has 3 coins left.
 
+#####################################
+# f-strings  --->we can use in another way too
+
+print('')
+
+message = f"\n{person} has {coins} coins left."     #Vinodhini has 3 coins left.
+
+print (message)
+
+message = f"\n{person} has {2*5} coins left."
+print (message)    #Vinodhini has 10 coins left.
+
+message = f"\n{person.lower()} has {2*5} coins left."
+print (message)   #vinodhini has 10 coins left.
+
+message = f"\n{player} has {2*5} coins left."
+print (message)    #{'person': 'Abi', 'coins': 3} has 10 coins left.
+
+
+
+
+
+
+
+
