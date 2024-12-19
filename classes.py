@@ -50,4 +50,20 @@ golfwagon.get_make_model()
 golfwagon.moves()
 
 
+print('')
+
+for v in(my_car, cessna, mack,golfwagon):
+    v.get_make_model()
+    v.moves()
+
+#I'm a Tesla Model Y.
+#Moves along..
+#I'm a Cessna Skywalk.
+#Rumbles along..
+#I'm a Mack Pinnacle.
+#Rumbles along..
+#I'm a Yamaha GC100.
+#Moves along..
+
+
     
